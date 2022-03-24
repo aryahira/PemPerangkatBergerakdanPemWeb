@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya Hirawansyah</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        * {
+            font-family: 'poppins';
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            outline: none;
+            border: none;
+            box-sizing: border-box;
+            font-family: 'poppins';
+        }
+        
+         :root {
+            --paragraph: #000;
+            --border: #1CA7EC;
+        }
+        
+        .container {
+            position: absolute;
+            width: 905px;
+            height: 493px;
+            left: 55px;
+            top: 41px;
+        }
+        
+        .container h3 {
+            position: absolute;
+            width: 588px;
+            height: 38px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 38px;
+        }
+        
+        .container .box-heading {
+            position: absolute;
+            width: 853px;
+            height: 86px;
+            left: 52px;
+            top: 57px;
+            /* left: 107px, top: 112px */
+        }
+        
+        .container .box1 {
+            position: absolute;
+            width: 253px;
+            height: 86px;
+            border: 4px solid var(--border);
+        }
+        
+        .container .box1 p.heading {
+            position: absolute;
+            width: 149px;
+            height: 58px;
+            left: 52px;
+            top: 10px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 28px;
+            text-align: center;
+        }
+        
+        .container .box2 {
+            position: absolute;
+            width: 253px;
+            height: 86px;
+            left: 300px;
+            /* left: 407px, top: 112px */
+            border: 4px solid var(--border);
+        }
+        
+        .container .box2 p.heading {
+            position: absolute;
+            width: 146px;
+            height: 58px;
+            left: 54px;
+            top: 10px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 28px;
+            text-align: center;
+        }
+        
+        .container .box3 {
+            position: absolute;
+            width: 253px;
+            height: 86px;
+            left: 600px;
+            /* left: 707px, top: 112px */
+            border: 4px solid var(--border);
+        }
+        
+        .container .box3 p.heading {
+            position: absolute;
+            width: 191px;
+            height: 27px;
+            left: 31px;
+            top: 29px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+        }
+        
+        .container .content {
+            position: absolute;
+            width: 853px;
+            height: 422px;
+            left: 52px;
+            /* left: 107px, top: 112px */
+            top: 71px;
+        }
+        
+        .container .content .content1 {
+            position: absolute;
+            width: 253px;
+            height: 290px;
+            /* top: 112px, left: 107px */
+        }
+        
+        .container .content .content1 .fitur {
+            position: absolute;
+            width: 216px;
+            height: 182px;
+            left: 27px;
+            top: 108px;
+            /* top: 220px, left: 134px */
+        }
+        
+        .container .content .content1 .fitur .fitur1 {
+            position: absolute;
+            width: 216px;
+            height: 50px;
+            /* top: 220px, left: 134px */
+        }
+        
+        .container .content .content1 .fitur .fitur1 img,
+        .container .content .content1 .fitur .fitur2 img,
+        .container .content .content1 .fitur .fitur3 img {
+            height: 50px;
+        }
+        
+        .container .content .content1 .fitur .fitur1 p {
+            position: absolute;
+            width: 132px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content1 .fitur .fitur2 {
+            position: absolute;
+            width: 129px;
+            height: 50px;
+            /* top: 286px, left: 218px */
+            top: 66px;
+        }
+        
+        .container .content .content1 .fitur .fitur2 p {
+            position: absolute;
+            width: 45px;
+            height: 36px;
+            top: 7px;
+            left: 84px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content1 .fitur .fitur3 {
+            position: absolute;
+            width: 215px;
+            height: 50px;
+            /* top: 352px, left: 134px */
+            top: 132px;
+        }
+        
+        .container .content .content1 .fitur .fitur3 p {
+            position: absolute;
+            width: 131px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content2 {
+            position: absolute;
+            width: 253px;
+            height: 422px;
+            left: 295px;
+            /* top: 112px, left: 407px */
+        }
+        
+        .container .content .content2 .fitur {
+            position: absolute;
+            width: 216px;
+            height: 314px;
+            left: 29px;
+            /* top: 220px, left: 436px */
+            top: 108px;
+        }
+        
+        .container .content .content2 .fitur .fitur1 {
+            position: absolute;
+            width: 216px;
+            height: 50px;
+            /* top: 220px, left: 436px */
+        }
+        
+        .container .content .content2 .fitur .fitur1 img,
+        .container .content .content2 .fitur .fitur2 img,
+        .container .content .content2 .fitur .fitur3 img, 
+        .container .content .content2 .fitur .fitur4 img,
+        .container .content .content2 .fitur .fitur5 img {
+            height: 50px;
+        }
+        
+        .container .content .content2 .fitur .fitur1 p {
+            position: absolute;
+            width: 132px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content2 .fitur .fitur2 {
+            position: absolute;
+            width: 151px;
+            height: 50px;
+            /* top: 286px, left: 436px */
+            top: 66px;
+        }
+        
+        .container .content .content2 .fitur .fitur2 p {
+            position: absolute;
+            width: 67px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content2 .fitur .fitur3 {
+            position: absolute;
+            width: 118px;
+            height: 50px;
+            /* top: 352px, left: 436px */
+            top: 132px;
+        }
+        
+        .container .content .content2 .fitur .fitur3 p {
+            position: absolute;
+            width: 34px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content2 .fitur .fitur4 {
+            position: absolute;
+            width: 147px;
+            height: 50px;
+            /* top: 220px, left: 436px */
+            top: 198px;
+        }
+        
+        .container .content .content2 .fitur .fitur4 p {
+            position: absolute;
+            width: 63px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content2 .fitur .fitur5 {
+            position: absolute;
+            width: 170px;
+            height: 50px;
+            /* top: 226px, left: 484px */
+            top: 264px;
+        }
+        
+        .container .content .content2 .fitur .fitur5 p {
+            position: absolute;
+            width: 86px;
+            height: 36px;
+            left: 84px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content3 {
+            position: absolute;
+            width: 253px;
+            height: 356px;
+            left: 600px;
+            /* left: 707px, top: 112px */
+            top: 4px;
+        }
+        
+        .container .content .content3 .fitur {
+            position: absolute;
+            width: 216px;
+            height: 314px;
+            left: 29px;
+            /* top: 220px, left: 436px */
+            top: 108px;
+        }
+        
+        .container .content .content3 .fitur .fitur1 {
+            position: absolute;
+            width: 204px;
+            height: 50px;
+            /* top: 220px, left: 738px */
+        }
+        
+        .container .content .content3 .fitur .fitur1 p {
+            position: absolute;
+            width: 132px;
+            height: 36px;
+            left: 71px;
+            top: 14px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content3 .fitur .fitur2 {
+            position: absolute;
+            width: 133px;
+            height: 50px;
+            /* top: 286px, left: 738px */
+            top: 66px;
+        }
+        
+        .container .content .content3 .fitur .fitur2 p {
+            position: absolute;
+            width: 61px;
+            height: 36px;
+            left: 71px;
+            top: 14px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content3 .fitur .fitur3 {
+            position: absolute;
+            width: 213px;
+            height: 50px;
+            top: 132px;
+            /* top: 352px, left: 738px */
+        }
+        
+        .container .content .content3 .fitur .fitur3 p {
+            position: absolute;
+            width: 141px;
+            height: 36px;
+            left: 71px;
+            top: 7px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content3 .fitur .fitur4 {
+            position: absolute;
+            width: 132px;
+            height: 50px;
+            /* top: 220px, left: 738px */
+            top: 198px;
+        }
+        
+        .container .content .content3 .fitur .fitur4 p {
+            position: absolute;
+            width: 60px;
+            height: 36px;
+            left: 71px;
+            top: 15px;
+            color: var(--paragraph);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+        
+        .container .content .content3 .fitur .fitur1 img,
+        .container .content .content3 .fitur .fitur2 img,
+        .container .content .content3 .fitur .fitur3 img,
+        .container .content .content3 .fitur .fitur4 img {
+            height: 50px;
+        }
+
+        h4 {
+            margin-top: 600px;
+        }
+        
+        .rectangle{
+            height: 3rem;
+            width: 98%;
+            margin-left: 1%;
+            background-color: #999;
+            border: 1px solid #000;
+        }
+        
+        p.rectangle{
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        iframe {
+            margin-top: 30px;
+            width: 100%;
+            height: 800px;
+        }
+        
+        h4 {
+            margin-left: 1%;
+            font-size: 20px;
+        }
+        
+        h5 {
+            margin-left: 1%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Programming Language Base on Career</h3>
+        <div class="box-heading">
+            <div class="box">
+                <div class="box1">
+                    <p class="heading">Front-end Web Development</p>
+                </div>
+                <div class="box2">
+                    <p class="heading">Back-end Web Development</p>
+                </div>
+                <div class="box3">
+                    <p class="heading">Mobile Development</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="content">
+            <sub class="content1">
+                <div class="fitur">
+                    <div class="fitur1">
+                        <img src="./Media/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="fitur2">
+                        <img src="./Media/Elm_logo.svg.png" alt="elm">
+                        <p>Elm</p>
+                    </div>
+                    <div class="fitur3">
+                        <img src="./Media/typescript.png" alt="typescript">
+                        <p>TypeScript</p>
+                    </div>
+                </div>
+            </sub>
+            <sub class="content2">
+                <div class="fitur">
+                    <div class="fitur1">
+                        <img src="./Media/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="fitur2">
+                        <img src="./Media/scala3486.jpg" alt="elm">
+                        <p>Scala</p>
+                    </div>
+                    <div class="fitur3">
+                        <img src="./Media/Go_(programming_language)-Logo.wine.png" alt="typescript">
+                        <p>Go</p>
+                    </div>
+                    <div class="fitur4">
+                        <img src="./Media/png-transparent-ruby-on-rails-logo-programming-language-rubygems-ruby-angle-design-ruby-removebg-preview.png" alt="diamond">
+                        <p>Ruby</p>
+                    </div>
+                    <div class="fitur5">
+                        <img src="./Media/31-312064_programming-icon-png-python-logo-512-transparent-png-removebg-preview.png" alt="python">
+                        <p>Python</p>
+                    </div>
+
+                </div>
+
+            </sub>
+            <sub class="content3">
+                <div class="fitur">
+                    <div class="fitur1">
+                        <img src="./Media/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="fitur2">
+                        <img src="./Media/png-clipart-java-programming-computer-programming-programming-language-android-coffee-jar-text-logo.png" alt="elm">
+                        <p>Java</p>
+                    </div>
+                    <div class="fitur3">
+                        <img src="./Media/letter-c-icon-22.jpg" alt="typescript">
+                        <p>Objective C</p>
+                    </div>
+                    <div class="fitur4">
+                        <img src="./Media/png-clipart-swift-apple-logo-objective-c-apple-orange-logo.png" alt="swift">
+                        <p>Swift</p>
+                    </div>
+                </div>
+            </sub>
+        </div>
+    </div>
+    
+    <h4>Top 10 Programming Language in 2022</h4>
+    <p class="rectangle">
+        <a href="./Latihan-4.html">...iframe to Latihan-4...</a>
+    </p>
+    <h5>List of programming language from Wikipedia</h5>
+    <iframe src="https://en.wikipedia.org/wiki/List_of_programming_languages"></iframe>
+</body>
+</html>
