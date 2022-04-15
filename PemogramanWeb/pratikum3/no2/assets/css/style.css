@@ -1,0 +1,35 @@
+h1{
+    color: springgreen;
+}
+div.box h2{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#container{
+    display: flex;
+}
+div.box{
+    border: 1px solid black ;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    float:left;
+    margin: 1%
+}
+
+div.box img{
+    width: 100%;
+    height: 150px;
+}
+
+div.box p{
+    text-align: justify;
+}
+div.text{
+    width: 150%;
+    height: 400%;
+}
+footer p{
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* navbar */
+ul {
+    background-color: #2629df;
+}
+
+ul li img {
+    height: 25px;
+    width: 25px;
+}
+
+/* isi */
+
+#judul{
+    font-size: 80px;
+    font-family: 'bebas Neue';
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    /* text-decoration: underline; */
+    /*padding-bottom: 25px;  */
+    text-shadow: 3px 3px 3px rgba(0, 111, 132, 12);
+}
+
+img:hover{
+    box-shadow: 5px 5px 10px rgb(36, 36, 36);
+}
+
+img {
+    margin-left: 42%;
+    border-radius: 480px;
+    width: 200px;
+    height: 200px;
+}
+
+#nama{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+#npks{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -2%;
+    color: white;
+}
+
+#cerita{
+    text-align: center;
+    text-indent: 6%;
+    margin-left: 110px;
+    margin-right: 110px;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* Box */
+
+.isi .box-c{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding-top: 50px;
+}
+
+.isi .box-c .box{
+    padding: 0,5rem 1rem;
+    height: 25rem;
+    width: 30rem;
+    /* border: 2px solid; */
+    margin:0 30px;
+    background-color:aliceblue;
+    border-radius: 40px;
+}
+
+.isi .box-c .box:hover{
+    box-shadow: 3px 3px 10px rgb(36, 36, 36);
+}
+
+/* box isi */
+
+.isi .box-c .box .desk img{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    background-color:azure;
+}
+
+.isi .box-c .box .desk h1{
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.isi .box-c .box .desk p{
+    text-align: justify;
+    margin: 18px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+
+}
+
+/* contact us */
+.contactus .box-container .box {
+    background-color:beige;
+    border-radius: 40px;
+    width: 50%;
+    height: 28%;
+    margin-top: 25px;
+    margin-left: 25%;
+}
+
+.contactus .box-container .box .cu h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: -10px;
+}
+
+.contactus .box-container .box .cu p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: -10px;
+    padding-bottom: 2%;
+    color:black;
+    
+}
