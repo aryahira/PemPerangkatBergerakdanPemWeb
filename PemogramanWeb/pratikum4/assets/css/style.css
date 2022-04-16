@@ -1,0 +1,42 @@
+div.box{
+    border: 1px solid black ;
+    width: 1200px;
+    padding: 20px;
+    float:left;
+    margin: 1%
+}
+
+div.box2{
+    border: 1px solid black ;
+    width: 450px;
+    padding: 20px;
+    float:left;
+    margin: 1%;
+    text-align: center;
+    color: purple;
+}
+
+#box{
+    display: flex;
+}
+
+div.ibik{
+    float: left;
+    border: 1px solid black;
+    width: auto;
+    margin-right: 20px;
+}
+
+.gambaribik{
+    height: 350px;
+}
+
+div.box  .col p{
+    text-align: justify;
+}
+
+.Text{
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
