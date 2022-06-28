@@ -1,0 +1,36 @@
+/* :root {
+    --background: #FFFFFF;
+    --text: #395C61;
+    --btn-inactive: #D9D9D9;
+    --border: #EDBC10;
+    --inactive: #BDC1C1;
+    --description: #808D8E;
+    --detail: #637173;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto'
+}
+
+.text-green,
+.bg-green {
+    color: #395C61 !important;
+}
+
+.text-yellow,
+.bg-yellow {
+    color: #EDBC10 !important
+}
+
+.text-extra-bold {
+    font-weight: 800 !important;
+}
+
+.text-bold {
+    font-weight: 700 !important;
+}
+
+.box-shadow-yellow {
+    box-shadow: 0px 4px 38px rgba(237, 188, 16, 0.18);
+}

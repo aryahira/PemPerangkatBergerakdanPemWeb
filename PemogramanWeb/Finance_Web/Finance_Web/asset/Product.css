@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FFFFFF;
+    --text: #395C61;
+    --border: #EDBC10;
+    --inactive: #BDC1C1;
+}
+
+
+/* navbar */
+
+.navbar-collapse .navbar-nav .nav-item>.item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--text);
+}
+
+.navbar-collapse .navbar-nav .nav-item>.nav-link {
+    color: var(--inactive);
+}
+
+.navbar-collapse .navbar-nav .nav-item>.nav-link:hover {
+    color: #395C61;
+}
+
+.navbar-collapse .navbar-nav .nav-item>.active {
+    border-bottom: 3px solid var(--border);
+    color: var(--border);
+}
+
+.container-fluid .btn-custom {
+    border-radius: 15px;
+}
+
+.navbar-brand img {
+    width: 80%;
+    height: 80%;
+}
+
+.btn-custom2 {
+    /* height: 5em;
+    width: 13em; */
+    border-radius: 15px;
+    border: 3px solid var(--border);
+}
+
+
+/* navbar */
+
+
+/* box-heading */
+
+.icon-heading {
+    font-size: 4em;
+    color: var(--text);
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6em;
+    color: var(--text);
+}
+
+
+/* box-heading */
+
+
+/* box-button */
+
+.box-button .btn-custom {
+    border-radius: 30px;
+    border: 3px solid var(--border);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .9em;
+    color: var(--text);
+}
+
+
+/* box-button */
+
+
+/* section */
+
+.box-section>.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9em;
+    color: var(--text);
+}
+
+.box-rules .btn-circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 30px;
+}
+
+.box-rules .btn-circle>.number-circle {
+    top: 8%;
+    left: 32%;
+}
+
+.box-rules>.description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--text);
+}
+
+
+/* section */
+
+    /* MEDIA QUERIES */
+    
+    @media screen and (max-width: 1200px) {
+        .image-main {
+            display: none;
+        }
+        nav .container {
+            width: 85%;
+            justify-content: center;
+        }
+        .box-heading .icon-heading {
+            width: 40%;
+        }
+        .box-heading h6 {
+            max-width: 100%;
+        }
+        .box-button .ms-2 {
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        .box-section {
+            width: 100%;
+        } 
+        #maincontent{
+            width: auto;
+            float: none;
+        }
+    }
+    /* MEDIA QUERIES */
+    
+    @media screen and (max-width: 720px) {
+        .image-main {
+            display: none;
+        }
+        nav .container {
+            width: 85%;
+            justify-content: center;
+        }
+        .box-footer .download-desc .btn-text-large {
+            font-size: 0.9em;
+        }
+        .box-card-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .box-card-wrapper h5 {
+            font-size: 1rem;
+        }
+        .points-box {
+            display: block !important;
+            text-align: center
+        }
+        .points-box img {
+            width: 30%;
+        }
+    }
+
+        @media screen and (max-width:680px){
+        .image-main {
+            display: none;
+        }
+        nav .container {
+            width: 85%;
+            justify-content: center;
+        }
+        #maincontent{
+            width: auto;
+            float: none;
+        }
+        #sidebar{
+            width: auto;
+            float: none;
+        }
+        .box-footer .download-desc .btn-text-large {
+            font-size: 0.9em;
+        }
+        .box-card-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .box-card-wrapper h5 {
+            font-size: 1rem;
+        }
+        .points-box {
+            display: block !important;
+            text-align: center
+        }
+        .points-box img {
+            width: 30%;
+        }
+    }
